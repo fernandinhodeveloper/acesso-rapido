@@ -12,13 +12,13 @@ import requests
 url = 'http://www.nuclea.com.br/data/all/conf/user/1029/database/personal'
 
 # Solicitar as credenciais do usuário (simuladas)
-usuario = input("Digite seu nome de usuário: ")
-senha = input("Digite sua senha: ")
+usuario = "USR00701"
+senha = "YPCV^kY8Rr2JWB5"
 
 # Criar uma sessão
 sessao = requests.Session()
 
-# Enviar uma solicitação POST simulada com as credenciais do usuário
+# Enviar uma solicitação POST com as credenciais do usuário dono do código
 login_data = {
     'usuario': usuario,
     'senha': senha
